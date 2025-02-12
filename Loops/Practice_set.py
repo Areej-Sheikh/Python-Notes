@@ -43,13 +43,13 @@
 
 
 # 6. Write a program to calculate the factorial of a given number using for loop. 
-# n = int(input("Enter a number: "))
-# flag = 1  # Initialize factorial result
+n = int(input("Enter a number: "))
+flag = 1  # Initialize factorial result
 
-# for i in range(1, n + 1):  # Loop from 1 to n (inclusive)
-#     flag *= i  # Multiply flag by i
+for i in range(1, n + 1):  # Loop from 1 to n (inclusive)
+    flag *= i  # Multiply flag by i
 
-# print("Factorial:", flag)
+print("Factorial:", flag)
 
     
 
